@@ -1,0 +1,13 @@
+# Ignore compiled executables
+ex1
+ex2
+
+# Or more general (better)
+*.out
+a.out
+
+# Object files
+*.o
+
+# Temp files (Ubuntu)
+*~
