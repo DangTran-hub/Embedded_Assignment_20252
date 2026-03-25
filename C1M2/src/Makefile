@@ -4,9 +4,9 @@ TARGET := c1m2
 CC := gcc
 CFLAGS := -Wall -Werror -g -O0 -std=c99
 CPPFLAGS := -DHOST
-INCLUDES := -Iinclude/common
+INCLUDES := -I../include/common
 
-SOURCES := src/main.c src/memory.c
+SOURCES := main.c memory.c
 OBJS := $(SOURCES:.c=.o)
 PREPS := $(SOURCES:.c=.i)
 ASMS := $(SOURCES:.c=.asm)
