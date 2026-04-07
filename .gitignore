@@ -1,7 +1,7 @@
 # Ignore compiled executables
 ex1
 ex2
-
+ex3
 # Or more general (better)
 *.out
 a.out
