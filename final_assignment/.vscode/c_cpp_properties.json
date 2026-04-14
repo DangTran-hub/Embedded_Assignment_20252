@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "HOST",
+            "includePath": [
+                "${workspaceFolder}/include/common",
+                "${workspaceFolder}/include/CMSIS",
+                "${workspaceFolder}/include/msp432"
+            ],
+            "defines": [
+                "HOST"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "MSP432",
+            "includePath": [
+                "${workspaceFolder}/include/common",
+                "${workspaceFolder}/include/CMSIS",
+                "${workspaceFolder}/include/msp432"
+            ],
+            "defines": [
+                "MSP432"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
