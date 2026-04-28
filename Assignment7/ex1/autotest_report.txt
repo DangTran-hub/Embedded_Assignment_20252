@@ -1,0 +1,10 @@
+=== AUTO TEST HASH TABLE ===
+[PASS] Tao san 8 lien he co du lieu tim kiem duoc.
+[PASS] Search 'An'.
+[PASS] Search 'Minh'.
+[PASS] Search 'KhongTonTai'.
+[PASS] Delete 'Binh'.
+[PASS] Kiem tra sau xoa 'Binh'.
+[PASS] Delete 'Dung'.
+[PASS] Kiem tra sau xoa 'Dung'.
+Tong ket: 8/8 PASS
